@@ -32,8 +32,6 @@ void sum_of_subset(vector<int> &init_set, int lev, int dest_sum, int sub_sum)
     {
         sum_of_subset(init_set, lev++, dest_sum, sub_sum);
     }
-
-
 }
 
 
